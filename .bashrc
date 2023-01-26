@@ -58,11 +58,14 @@ alias utils="cd ~/Documents/heyauto/packages/ha-utils"
 alias clean="yarn bootstrap:clean && yarn build:all"
 alias code-backend="backend && code ."
 alias code-ui="ui && code ."
+alias code-buyer="buyer && code ."
 alias code-admin="admin && code ."
 alias code-dealer="dealer && code ."
 alias code-utils="utils && code ."
 alias code-vtds="vtds && code ."
 alias code-ha="cd ~/Documents/heyauto && code ."
+
+
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
