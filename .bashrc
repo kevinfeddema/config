@@ -56,7 +56,6 @@ alias admin="cd ~/Documents/heyauto/packages/ha-admin"
 alias dealer="cd ~/Documents/heyauto/packages/ha-dealer"
 alias utils="cd ~/Documents/heyauto/packages/ha-utils"
 alias ha="cd ~/Documents/heyauto"
-alias clean="yarn bootstrap:clean && yarn build:all"
 alias code-backend="backend && code ."
 alias code-ui="ui && code ."
 alias code-buyer="buyer && code ."
@@ -65,8 +64,7 @@ alias code-dealer="dealer && code ."
 alias code-utils="utils && code ."
 alias code-vtds="vtds && code ."
 alias code-ha="ha && code ."
-
-
+alias clean="ha && yarn bootstrap:clean && yarn build:all"
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
