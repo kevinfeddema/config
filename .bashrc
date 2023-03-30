@@ -95,6 +95,8 @@ export NVM_DIR="$HOME/.nvm"
 # Lagging issue on discord
 alias discord='discord --no-sandbox'
 
+# Bit.dev
+export PATH="$PATH:/home/kevin/bin"
 
 # Vividtheory Aliases
 
@@ -115,3 +117,6 @@ alias code-utils="utils && code ."
 alias code-vtds="vtds && code ."
 alias code-ha="ha && code ."
 alias clean="ha && yarn bootstrap:clean && yarn build:all"
+
+alias work="xmodmap ~/.Xmodmap && autorandr -l work"
+alias home="xmodmap ~/.Xmodmap && autorandr -l home"
