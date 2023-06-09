@@ -90,7 +90,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Change default browser
-export BROWSER="/usr/bin/google-chrome"
+export BROWSER="/usr/bin/google-chrome-stable"
 
 # Rust and Cargo
 . "$HOME/.cargo/env"
