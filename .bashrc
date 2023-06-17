@@ -121,5 +121,5 @@ alias code-vtds="vtds && code ."
 alias code-ha="ha && code ."
 alias clean="ha && yarn bootstrap:clean && yarn build:all"
 
-alias work="xmodmap ~/.Xmodmap && autorandr -l work"
-alias home="xmodmap ~/.Xmodmap && autorandr -l home"
+alias work="autorandr -l work"
+alias home="autorandr -l home"
